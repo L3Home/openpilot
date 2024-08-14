@@ -283,6 +283,27 @@ FW_VERSIONS = {
       b'\xf1\x00TMA MFC  AT USA LHD 1.00 1.03 99211-S2500 220414',
     ],
   },
+  CAR.HYUNDAI_SANTA_FE_2024: {
+    (Ecu.combinationMeter, 0x7C6, None): [
+      b'\xf1\x00331',
+      b'\xf1\x8b #\x12(',
+      b'\xf1\x10',
+    ],
+    (Ecu.fwdCamera, 0x7C4, None): [
+      b'\xf1\x00MX5 MFC  AT USA LHD 1.00 1.06 99211-R6000 231218',
+      b'\xf1\x8b $\x02\x14',
+    ],
+    (Ecu.fwdRadar, 0x7D0, None): [
+      b'\xf1\x00MX5_ RDR -----      1.00 1.01 99110-R6000         ',
+      b'\xf1\x8b $\x02\x03',
+    ],
+    (Ecu.hvac, 0x7B3, None): [
+      b'\xf1\x8b $\x02"',
+    ],
+    (Ecu.cornerRadar, 0x7B7, None): [
+      b'\xf1\x8b $\x03\x01 $\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+  },
   CAR.HYUNDAI_SANTA_FE_HEV_2022: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00TMhe SCC FHCUP      1.00 1.00 99110-CL500         ',
