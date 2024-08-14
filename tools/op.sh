@@ -189,7 +189,6 @@ function op_setup() {
 
   op_check_openpilot_dir
   op_check_os
-  op_check_python
 
   echo "Installing dependencies..."
   st="$(date +%s)"
@@ -274,7 +273,7 @@ function op_juggle() {
 
 function op_lint() {
   op_before_cmd
-  op_run_command scripts/lint.sh $@
+  op_run_command scripts/lint/lint.sh $@
 }
 
 function op_test() {
