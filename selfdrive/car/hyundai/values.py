@@ -254,7 +254,7 @@ class CAR(Platforms):
   )
   HYUNDAI_SANTA_FE_2024 = HyundaiPlatformConfig(
     [HyundaiCarDocs("Hyundai Santa Fe (2.5T) 2024", "All", car_parts=CarParts.common([CarHarness.hyundai_l]))],
-    CarSpecs(mass=1836, wheelbase=2.7),  # Unsure of: , steerRatio=13.0, tireStiffnessFactor=1.0
+    CarSpecs(mass=1836, wheelbase=2.7, steerRatio=13.0, tireStiffnessFactor=1.0),
     flags=HyundaiFlags.CHECKSUM_CRC8 | HyundaiFlags.CANFD | HyundaiFlags.RADAR_SCC,
   )
   HYUNDAI_SANTA_FE_HEV_2022 = HyundaiPlatformConfig(
