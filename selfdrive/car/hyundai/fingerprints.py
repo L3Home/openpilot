@@ -284,27 +284,27 @@ FW_VERSIONS = {
     ],
   },
   CAR.HYUNDAI_SANTA_FE_2024: {
-    (Ecu.combinationMeter, 0x7c6, None): [
-      b'\xf1\x00331',
-      b'\xf1\x8b #\x12(',
-      b'\xf1\x10',
-    ],
-    (Ecu.hvac, 0x7b3, None): [
-      b'\xf1\x8b $\x02"',
-    ],
+#    (Ecu.combinationMeter, 0x7c6, None): [
+#      b'\xf1\x00331',
+#      b'\xf1\x8b #\x12(',
+#      b'\xf1\x10',
+#    ],
+#    (Ecu.hvac, 0x7b3, None): [
+#      b'\xf1\x8b $\x02"',
+#    ],
     (Ecu.fwdCamera, 0x7c4, None): [  # Lane assistance/Front view camera aka FR_CMR
       b'\xf1\x00MX5 MFC  AT USA LHD 1.00 1.06 99211-R6000 231218',
-      b'\xf1\x8b $\x02\x14',
+#      b'\xf1\x8b $\x02\x14',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [  # Adaptive cruise-control aka FR_RDR
       b'\xf1\x00MX5_ RDR -----      1.00 1.01 99110-R6000',
-      b'\xf1\x8b $\x02\x03',
+#      b'\xf1\x8b $\x02\x03',
     ],
     (Ecu.cornerRadar, 0x7b7, None): [
       b'\xf1\x8b $\x03\x01 $\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.eps, 0x7d4, None): [  # EPS(Electric power steering) #1 aka MDPS1
-      b'\xf1\x00MX5 MDPS C 1.00 1.00 56300R6000  4MXAC100',  # SBW (unused [yet]): b'\xf1\x00PSBG4578  G770_AY13SMX5XXXWXXXXXES0y+',
+      b'\xf1\x00MX5 MDPS C 1.00 1.00 56300R6000  4MXAC100',
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00MX5 ESC  100# 58910-R6400',
